@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="epub-id">
+  <metadata  xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <dc:identifier id="epub-id">http://www.gutenberg.org/ebooks/25545</dc:identifier>
+    <meta refines="#epub-id" property="identifier-type" scheme="onix:codelist5">13</meta>
+
+    <dc:title id="pub-title">Alice’s Adventures in Wonderland</dc:title>
+    <!--<meta refines="#pub-title" property="title-type" >main</meta>-->
+
+    <dc:description id="desc">A girl named Alice falls into a rabbit hole,
+       where she encounters a world of strange creatures</dc:description>
+
+    <dc:publisher id="publisher">London: Macmillan</dc:publisher>
+
+    <dc:subject id="sub">FICTION/Classics</dc:subject>
+    <meta refines="#sub" property="authority">BISAC</meta>
+    <meta refines="#sub" property="term">FIC004000</meta>
+
+    <dc:language id="pub-language">en</dc:language>
+
+    <dc:date>1928</dc:date>
+    <meta property="dcterms:modified">2021-03-29T10:30:00Z</meta>
+
+    <dc:creator id="creator">Lewis Carroll</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators" id="role" >aut</meta>
+    <dc:contributor id="illustrator">Joh Tenniel</dc:contributor>
+    <meta refines="#illustrator" property="role" scheme="marc:relators" id="ill" >ill</meta>
+
+    <dc:contributor>Marina Bekavac</dc:contributor>
+
+
+          <!--Media Overlay-->
+          <meta property="media:duration" refines="#ch01Overlay">00:1:22.856</meta>
+          <meta property="media:duration">00:1:22.856</meta>
+          <meta property="media:narrator">Unknown</meta>
+
+          <meta property="media:active-class">-epub-media-overlay-active</meta>
+
+
+  </metadata>
+  <manifest>
+
+	  <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="nav.xhtml"/>
+    <item id="introPage" href="introPage.xhtml" properties="svg" media-type="application/xhtml+xml"/>
+    <item id="crestPage" href="crestPage.xhtml" properties="svg" media-type="application/xhtml+xml"/>
+    <item id="firstImg" href="firstImg.xhtml" properties="svg" media-type="application/xhtml+xml"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="titlePage" href="titlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="innerTitle" href="innerTitle.xhtml" media-type="application/xhtml+xml"/>
+    <item id="copyright" href="copyrightPage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="intro" href="intro.xhtml" media-type="application/xhtml+xml"/>
+
+
+    <item id="id01" href="ch01.xhtml" media-type="application/xhtml+xml" media-overlay="ch01Overlay"/>
+    <item id="ch01Overlay" href="ch01Overlay.smil" media-type="application/smil+xml"/>
+
+
+    <item id="id02" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="works" href="works.xhtml" media-type="application/xhtml+xml"/>
+    <item id="videoXHTML" href="video.xhtml" media-type="application/xhtml+xml" properties="remote-resources"/>
+    <item id="easter" href="easter.xhtml" media-type="application/xhtml+xml"/>
+    <item id="christmas" href="christmas.xhtml" media-type="application/xhtml+xml"/>
+    <item id="printing" href="printing.xhtml" media-type="application/xhtml+xml"/>
+
+    <!--SVG-->
+    <item id="crestSVG" href="img/crest.svg" media-type="image/svg+xml" />
+    <item id="firstSVG" href="img/first.svg" media-type="image/svg+xml" />
+    <item id="potpisSVG" href="img/potpis.svg" media-type="image/svg+xml" />
+
+    <!--Video-->
+    <!--
+    <item id="video1" href="video/alice.mp4" media-type="video/mp4"/>
+    <item id="video2" href="video/alice.webm" media-type="video/webm"/>-->
+    <item id="video3" href=" http://brela-kule.com/video/alice.webm"
+          media-type="video/webm" />
+
+    <!--Audio-->
+    <item id="aliceAudio" href="audio/aliceAudio.mp3" media-type="audio/mpeg"/>
+
+
+    <!--Slike-->
+    <item id="posterImg"  href="img/alice.PNG"
+                media-type="image/png"/>
+    <item id="cover-image" properties="cover-image" href="img/coverImg.PNG"
+      media-type="image/png"/>
+
+    <item id="potpis" href="img/potpis.PNG"
+        media-type="image/png"/>
+    <item id="crest"   href="img/crest.PNG"
+          media-type="image/png"/>
+
+          <!-- fallback na SVG-->
+    <item id="first"  href="img/first.PNG"
+            media-type="image/png"
+            fallback="firstSVG"/>
+
+    <item id="ch01Img"  href="img/ch01.PNG"
+                media-type="image/png"/>
+      <item id="ch01Img2"  href="img/ch01img2.PNG"
+              media-type="image/png"/>
+      <item id="ch01Img3"  href="img/ch01img3.PNG"
+                media-type="image/png"/>
+      <item id="ch02Img1"  href="img/ch02img1.PNG"
+              media-type="image/png"/>
+      <item id="ch02Img2"  href="img/ch02img2.PNG"
+                media-type="image/png"/>
+      <item id="ch02Img3"  href="img/ch02img3.PNG"
+                  media-type="image/png"/>
+      <item id="ch02Img4"  href="img/ch02img4.PNG"
+                  media-type="image/png"/>
+
+
+
+
+    <!--Style-->
+    <item media-type="text/css" id="epub-css" href="css/epub.css"/>
+    <item media-type="text/css" id="uList-css" href="css/uLists.css"/>
+    <item media-type="text/css" id="boldedTitles-css" href="css/boldedTitles.css"/>
+
+    <!--Fonts-->
+    <item id="font.Wenceslas" href="css/Wenceslas-Oblique.woff2" media-type="font/woff2"/>
+    <item id="font.Alpina" href="css/GT-Alpina-Light.woff2" media-type="font/woff2"/>
+    <item id="font.Alpina.italic" href="css/GT-Alpina-Light-Italic.woff2" media-type="font/woff2"/>
+    <item id="font.Alpina.bold" href="css/GT-Alpina-Bold.woff2" media-type="font/woff2"/>
+
+  </manifest>
+  <spine>
+
+    <itemref idref="cover"/>
+    <itemref idref="introPage"/>
+    <itemref idref="crestPage"/>
+    <!--<itemref idref="firstImg"/>-->
+    <!--first je PNG sa fallbackom na SVG-->
+    <itemref idref="first"/>
+    <itemref idref="titlePage"/>
+    <itemref idref="innerTitle"/>
+    <itemref idref="copyright"/>
+    <itemref idref="intro"/>
+    <itemref idref="htmltoc" linear="yes"/>
+		<itemref idref="id01"/>
+    <itemref idref="id02"/>
+    <itemref idref="videoXHTML"/>
+    <itemref idref="easter"/>
+    <itemref idref="christmas"/>
+    <itemref idref="printing"/>
+    <itemref idref="works"/>
+
+  </spine>
+</package>

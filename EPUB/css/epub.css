@@ -1,0 +1,251 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+@font-face {
+
+  font-family: 'SongFont';
+  src: url("Wenceslas-Oblique.woff2") format("woff2");
+  font-style:normal;
+  font-weight: normal;
+
+}
+
+@font-face {
+
+  font-family: 'Alpina';
+  src: url("GT-Alpina-Light.woff2") format("woff2");
+  font-style:normal;
+  font-weight: normal;
+
+}
+
+@font-face {
+
+  font-family: 'Alpina';
+  src: url("GT-Alpina-Bold.woff2") format("woff2");
+  font-style:normal;
+  font-weight: bold;
+
+}
+
+@font-face {
+
+  font-family: 'Alpina';
+  src: url("GT-Alpina-Light-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+body{
+
+  line-height: 1.5;
+  text-align: left;
+  width:95%;
+  margin: auto;
+  padding:2%;
+  font-family: 'Alpina', sans-serif;
+  /*font-family: 'SongFont', sans-serif;*/
+
+}
+
+h1{
+
+  font-size: 1.5em;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+
+}
+
+h2{
+
+  font-size: 1.3em;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+
+}
+
+h3{
+
+  font-size: 1.2em;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+
+}
+
+
+p{
+
+  text-align: left;
+  font-size: 1em;
+
+}
+
+/*p::first-letter{
+
+  font-variant: small-caps;
+
+}*/
+
+#firstImg{
+
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+#christmasSong{
+
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Alpina', sans-serif;
+  font-style: italic;/**/
+
+}
+
+#christmasSong p{
+
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Alpina', sans-serif;
+  font-style: italic;
+
+}
+
+#christmasSong p::first-line{
+
+  text-indent: 1em !important;
+
+}
+
+
+.decoratedSong{
+
+  font-family: 'Alpina',sans-serif;
+  font-style: italic;
+
+}
+
+.indent{
+
+  display: inline-block;
+  text-indent: 1em;
+
+}
+
+.firstWord{
+
+  font-variant: small-caps;
+
+}
+
+section[epub|type~='chapter'] p{
+
+  text-indent: 1em;
+
+}
+
+section[epub|type~='chapter'] p:first-of-type{
+
+  text-indent: 0em;
+  /*font-variant: small-caps;*/
+
+}
+
+section[epub|type~='preface'] {
+
+  margin-left: 20%;
+
+}
+
+.leftSideImg{
+
+  width:40%;
+
+}
+
+/*h1,h2{
+
+  text-align: left;
+
+}*/
+
+ol{
+
+  text-align: left;
+  list-style-type: upper-roman;
+  width: 80%;
+  margin: auto;
+
+}
+
+li{
+
+  /*text-align: center;*/
+  width:30%;
+  /*margin: auto;*/
+
+}
+
+.pageNumbers{
+  text-align: right;
+  display: none;
+}
+
+.pageNumbersLeft{
+  text-align: left;
+  display: none;
+}
+
+img{
+
+  width:100%;
+
+}
+
+a{
+
+  text-decoration: none;
+  color: inherit;
+
+}
+
+a:hover{
+
+  color:black;
+
+}
+
+#copyright{
+  font-style: italic;
+}
+
+.song{
+  font-style: italic;
+  font-family: 'Alpina',sans-serif;
+}
+
+.svgImg {
+  width:40%;
+}
+
+.videoClass{
+  width:80%;
+  max-height:50%;
+}
+
+.-epub-media-overlay-active {
+    background-color: #32a879;
+}

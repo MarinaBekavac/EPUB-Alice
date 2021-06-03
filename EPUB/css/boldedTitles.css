@@ -1,0 +1,9 @@
+.bolded{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bolded:after{
+  content:"\a";
+  white-space: pre;
+}
